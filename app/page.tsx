@@ -202,10 +202,8 @@ export default function Home() {
 
           <div className="border-t mt-8 pt-6 text-center">
             <p className="text-xs text-muted-foreground">
-              2025 Beam. This is a Demo. We have no affiliation with any of the
-              brands mentioned in the video including Beam, any usage is purely
-              educational, in the event of any infringement, please contact us
-              and we will remove/alter the content immediately.
+              Made by Koyna Jani and Deep Daki
+              © Copyright 2025 Beam.
             </p>
           </div>
         </div>

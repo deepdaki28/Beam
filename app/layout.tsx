@@ -32,10 +32,15 @@ export default function RootLayout({
         <ClerkProvider
           signInFallbackRedirectUrl="/dashboard"
           signUpFallbackRedirectUrl="/dashboard"
+          localization={{
+            signIn: {
+              start: {
+                title: "Sign in to Beam",
+              },
+            },
+          }}
         >
-          <ConvexClientProvider>
-            {children}
-          </ConvexClientProvider>
+          <ConvexClientProvider>{children}</ConvexClientProvider>
         </ClerkProvider>
       </body>
     </html>
